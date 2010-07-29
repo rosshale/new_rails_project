@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: utf8
+  username: root
+  password:
+  database: default_development
+
+test:
+  adapter: postgresql
+  encoding: utf8
+  username: root
+  password:
+  database: default_test
+
+production:
+  adapter: postgresql
+  encoding: utf8
+  database: default_production
+
+staging:
+  adapter: postgresql
+  encoding: utf8
+  database: default_staging
