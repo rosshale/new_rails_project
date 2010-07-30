@@ -11,7 +11,7 @@ require 'tasks/rails'
 
 begin
   require 'heroku_deploy'
-  HerokuDeploy::Tasks.new( :staging_app => "default-staging", :production_app => "default" )
+  HerokuDeploy::Tasks.new( :staging_app => "new-rails-project-staging", :production_app => "new-rails-project" )
 rescue LoadError
   puts "heroku_deploy (or a dependency) not available. Install it with: gem install heroku_deploy"
 end
