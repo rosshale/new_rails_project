@@ -2,3 +2,4 @@ haml
 jrails
 rails -v 2.3.8
 pg
+heroku_deploy
